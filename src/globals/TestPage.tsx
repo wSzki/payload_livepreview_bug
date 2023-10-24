@@ -7,6 +7,7 @@ const TestPage : GlobalConfig = {
 	slug: 'TestGlobal',
 	access: {
 		read   : () => true,
+		update : () => true,
 	},
 	fields: [
 		{
